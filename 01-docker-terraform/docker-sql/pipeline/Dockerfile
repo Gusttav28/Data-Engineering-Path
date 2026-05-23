@@ -11,7 +11,7 @@ COPY pyproject.toml .python-version uv.lock ./
 RUN uv sync --locked
 
 # running under the currently directory
-COPY pipeline.py .
+COPY ingest_data.py .
 
 # when you run the docker it would run this
 ENTRYPOINT ["python", "pipeline.py"]
