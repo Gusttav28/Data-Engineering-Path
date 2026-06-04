@@ -16,3 +16,5 @@ the primary key it use to indentify specific rows of data
 What is a foreign key
 
 the foreign key is use to set relantionships between data from different tables.
+
+I'm not sure about how the query should be make but I know that it needs to have an inner to put the two tables together by id and we need to set a count on amount from orders table in order to get the total revenue
